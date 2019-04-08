@@ -30,4 +30,4 @@ for tweet in Tweets:
     p.append(analysis.sentiment[0])
     s.append(analysis.sentiment[1])
 result = pd.DataFrame({'Tweet Text' : text, 'polarity' : p , 'subjectvity' : s})   
-display(result)
+print(result)
